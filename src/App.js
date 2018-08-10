@@ -10,6 +10,14 @@ class App extends Component {
           credentials="yLrb4YX5O:2de3f9c2-5586-434f-9a62-880139bffa79"
           type="listing"
         >
+
+        <DateRange
+          dataField="date_from"
+          componentId="DateRangeSensor"
+          title="When"
+          numberOfMonths={1}
+          queryFormat="basic_date" // yyyyMMdd
+        />
           Hello from ReactiveSearch!
         </ReactiveBase>
       </section>
@@ -18,4 +26,3 @@ class App extends Component {
 }
 export default App;
 
-export default App;
