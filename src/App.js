@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ReactiveBase, DateRange } from '@appbaseio/reactivesearch'
+import { ReactiveBase, DateRange, NumberBox } from '@appbaseio/reactivesearch'
 
 class App extends Component {
   render() {
@@ -18,6 +18,19 @@ class App extends Component {
           numberOfMonths={1}
           queryFormat="basic_date" // yyyyMMdd
         />
+
+       <NumberBox
+        componentId="GuestSensor"
+        dataField="accommodates"
+        title="Guests"
+        defaultSelected={2}
+        data={{
+          start: 1,
+          end: 16
+          }}
+        />
+
+
           Hello from ReactiveSearch!
         </ReactiveBase>
       </section>
