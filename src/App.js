@@ -46,8 +46,8 @@ export default () => (
                         end: 250,
                     }}
                     rangeLabels={{
-                        start: '$10',
-                        end: '$250',
+                        start: '£10',
+                        end: '£250',
                     }}
                     defaultSelected={{
                         start: 10,
