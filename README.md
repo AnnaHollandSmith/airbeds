@@ -1,8 +1,8 @@
-Airbeds
+# Airbeds
 
 An Airbnb clone. 
 
-Instructions: 
+## Instructions: 
 
 Clone down this depository before running the following commands: 
 
