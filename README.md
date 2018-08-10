@@ -17,3 +17,5 @@ npm start
 ```
 
 You can then access the site on http://localhost:3000/
+
+![](./readme-images/airbeds.png)
