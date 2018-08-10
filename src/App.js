@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css'
 import { ReactiveBase, NumberBox, DateRange, RangeSlider, ResultCard } from '@appbaseio/reactivesearch';
 
 export default () => (
